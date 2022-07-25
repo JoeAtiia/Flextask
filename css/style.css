@@ -1,0 +1,312 @@
+/* global style */
+*{
+    margin:0;
+    padding:0;
+}
+.overlay{
+    background-color: rgba(0,0,0, 0.5);
+    /* height:100vh; */
+}
+.clear{
+    clear:both;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.d-flex{
+    display:flex;
+}
+.d-inline{
+    display: inline;
+}
+li{
+    display:inline;
+}
+/* -------------------------------------------------------- */
+/* text-color */
+.text-white{
+    color:white;
+}
+.text-gray{
+    color:gray;
+}
+.text-light-gray{
+    color:lightgray;
+}
+.text-black{
+    color:black;
+}
+
+/* -------------------------------------------------------- */
+/* First section */
+.sec1{
+    background-image: url(../images/1.webp);
+    background-size: cover;
+    padding-top:2%;
+    padding-bottom:4%;
+}
+/* -------------------------------------------------------- */
+/* nav in section1 */
+.sec1 nav{
+    display: flex;
+    color:white;
+    border-bottom:2px solid white;
+    padding-bottom: 1%;
+}
+.sec1 nav .left{
+    margin-right:55%;
+    margin-left:2%;
+    font-size:20px;
+    padding-top:1%;
+}
+.sec1 nav a{
+    text-decoration:none;
+    color:#505050;
+    transition: 400ms;
+}
+.sec1 nav .right{
+    padding-top:1%;
+    width:43%
+}
+.sec1 nav .right li{
+    text-decoration: none;
+    list-style: none;
+    display:inline;
+    font-size:15px;
+    margin-right:3%;
+}
+.sec1 nav .right a:hover{
+    color:white; 
+}
+.sec1 nav ul{
+    display: inline;
+}
+.sec1 nav i{
+    display:inline;
+    margin-left:15%;
+    font-size: 25px;
+}
+/* -------------------------------------------------------- */
+/* points in sec1 */
+.points{
+    margin-top:33%;
+    display: flex;
+}
+.point1{
+    width:31%;
+    margin-right:3%;
+    display: flex;
+}
+
+.point1 p:nth-child(odd){
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight:bold;
+    padding:3% 2%;
+    margin-right:3%;
+    border-top:blue 6px solid;
+    border-right:blue 6px solid;
+    border-bottom:blue 6px solid;
+    border-left:lightgray 4px solid;
+}
+.point1 p:nth-child(even){
+    display: inline;
+    font-size: large;
+}
+
+/* -------------------------------------------------------- */
+/* Section2 */
+.sec2{
+    padding-top:9%;
+}
+.sec2 .container{
+    /* background-color: #505050; */
+    height:900px;
+}
+/* -------------------------------------------------------- */
+/* left side of section2 */
+.sec2 .big-left{
+    /* background-color: aquamarine; */
+    width:70%;
+    height:800px;
+}
+
+/* -------------------------------------------------------- */
+/* navigation bar of left side of section2 */
+.sec2 nav{
+    /* background-color: beige; */
+    padding:3% 0%;
+    border-bottom:#f1f1f1 2px solid;
+    border-image: linear-gradient(to right,#f1f1f1 25%,#0000ff 2%,#f1f1f1 31%) 3;
+}
+.sec2 nav h3{
+    width:13%;
+    display: inline;
+}
+.sec2 nav a{
+    text-decoration: none;
+}
+.sec2 nav ul{
+    width:85%;
+    /* background-color: blanchedalmond; */
+    margin-left:11%;
+    font-size: 19px;
+}
+.sec2 nav li{
+   margin-left:3%;
+   color:#8d8d8d;
+   transition: 400ms;
+}
+.sec2 nav li:hover{
+    color:black;
+ }
+/* -------------------------------------------------------- */
+/* second part of section2 mini section */
+.sec2 .mini-sec2{
+    /* background-color: #505050; */
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right:1%;
+    /* display: block; */
+}
+/* -------------------------------------------------------- */
+/* mini section 2 left side */
+.sec2 .mini-sec2 .left{
+    background-color: white;
+    width:44%;
+    height:45%;
+}
+.sec2 .mini-sec2 .left h4{
+    margin:5% 5%;
+}
+.sec2 .mini-sec2 .left p{
+    color:#9e9e9e;
+    margin:5% 5%;
+}
+/* -------------------------------------------------------- */
+/* mini section 2 right side */
+.sec2 .mini-sec2 .right{
+    width:44%;
+    /* background-color:rgb(22, 124, 212); */
+    margin-left:8%;
+    /* height:45%; */
+}
+.sec2 .mini-sec2 .right .mini-card{
+    background-color: white;
+    height: 86px;
+    margin-bottom:2%;
+}
+.sec2 .mini-sec2 .right .mini-card-text{
+    width:70%;
+}
+
+.sec2 .mini-sec2 .right .mini-card h5{
+    margin:4% 4%;
+    font-weight: 600;
+}
+.sec2 .mini-sec2 .right .mini-card p{
+    margin:4% 4%;
+    font-size:14px;
+    font-weight: 100;
+}
+/* -------------------------------------------------------- */
+/* section 2 arrows */
+.sec2 .big-left .arrows{
+    height:50px;
+    margin-top:3%;
+    margin-left:3%;
+}
+.sec2 .big-left .arrows i{
+    padding-left:2%;
+    color:lightgray;
+    width:4%;
+    height:30%;
+    border:lightgray 2px solid;
+    border-radius: 50%;
+}
+
+.sec2 .big-left .arrows i:hover{
+    color:white;
+    background-color: #0000ff;
+    border:blue 2px solid
+}
+.sec2 .big-left .arrows i{
+    margin-right:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- */
+/* right side of section2 */
+.sec2 .big-right{
+    /* background-color: bisque; */
+    width:30%;
+    height:1500px;
+}
+.sec2 .big-right h1{
+    padding-top:3%;
+    padding-left:4%;
+    padding-bottom:4%;
+    border-bottom: lightgray 2px solid; 
+    border-left: lightgray 2px solid; 
+    /* margin-bottom:2% */
+}
+.sec2 .big-right p{
+    padding-top:5%;
+    padding-left:4%;
+    padding-bottom:6%;
+    border-bottom: lightgray 2px solid; 
+    border-left: lightgray 2px solid; 
+    color:#8d8d94;
+}
+.sec2 .big-right .mini-cards{
+    border-bottom: lightgray 2px solid; 
+    border-left: lightgray 2px solid; 
+    padding-top:5%;
+    padding-left:4%;
+    padding-bottom:6%;
+    height: 400px;
+    /* background-color: rgb(6, 12, 10); */
+    /* padding-right:5%; */
+
+}
+
+.sec2 .big-right .mini-cards .mini-card{
+    height: 70px;
+    background-color:white;
+    border-bottom: lightgray 2px solid; 
+    border-right: lightgray 2px solid; 
+    margin-bottom:4%;
+
+}
+.sec2 .big-right .mini-cards .mini-card h5{
+    margin:auto;
+    margin-left:3%;
+    font-weight: 700;
+}
+.sec2 .big-right .card{
+    height:300px;
+    border-left:lightgray 2px solid;
+    border-bottom: lightgray 2px solid; 
+    border-left: lightgray 2px solid; 
+}
+.sec2 .big-right .card img{
+    margin-top:7%;
+    margin-left:7%;
+    margin-right:15%;
+}
+.sec2 .big-right .card h4{
+    margin-top: 4%;
+    margin-left:9%;
+}
